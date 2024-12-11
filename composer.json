@@ -1,0 +1,22 @@
+{
+    "name": "devrafael/myecommercebackend",
+    "description": "Backend for my e-commerce project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devrafael\\Myecommercebackend\\": "scr/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Moraes",
+            "email": "DevRafaael@gmail.com"
+        }
+    ],
+    "require": {
+        "mercadopago/dx-php": "^2.6",
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

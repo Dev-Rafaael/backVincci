@@ -1,0 +1,766 @@
+Array
+(
+)
+MercadoPago\Preference Object
+(
+    [id:protected] => 1857506377-77120dae-5ca5-43f0-951d-d126864986b7
+    [auto_return:protected] => approved
+    [back_urls:protected] => stdClass Object
+        (
+            [failure] => http://localhost:5173/Pacotes
+            [pending] => http://localhost:5173/Pacotes
+            [success] => http://localhost:5173/
+        )
+
+    [notification_url:protected] => 
+    [init_point:protected] => https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=1857506377-77120dae-5ca5-43f0-951d-d126864986b7
+    [sandbox_init_point:protected] => https://sandbox.mercadopago.com.br/checkout/v1/redirect?pref_id=1857506377-77120dae-5ca5-43f0-951d-d126864986b7
+    [operation_type:protected] => regular_payment
+    [additional_info:protected] => 
+    [external_reference:protected] => 
+    [expires:protected] => 
+    [expiration_date_from:protected] => 
+    [expiration_date_to:protected] => 
+    [date_of_expiration:protected] => 
+    [collector_id:protected] => 1857506377
+    [client_id:protected] => 4788467070224111
+    [marketplace:protected] => NONE
+    [marketplace_fee:protected] => 0
+    [differential_pricing:protected] => 
+    [payment_methods:protected] => stdClass Object
+        (
+            [default_card_id] => 
+            [default_payment_method_id] => 
+            [excluded_payment_methods] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => 
+                        )
+
+                )
+
+            [excluded_payment_types] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => 
+                        )
+
+                )
+
+            [installments] => 12
+            [default_installments] => 
+        )
+
+    [items:protected] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => 
+                    [category_id] => 
+                    [currency_id] => BRL
+                    [description] => 
+                    [title] => Barman + lista de compras
+                    [quantity] => 1
+                    [unit_price] => 950
+                )
+
+        )
+
+    [payer:protected] => MercadoPago\Payer Object
+        (
+            [id:protected] => 
+            [entity_type:protected] => 
+            [type:protected] => 
+            [name:protected] => ADENISIA MORAES DE OLIVEIRA
+            [surname:protected] => 
+            [first_name:protected] => 
+            [last_name:protected] => 
+            [email:protected] => adenisisa@dd
+            [date_created:protected] => 
+            [phone:protected] => stdClass Object
+                (
+                    [area_code] => 
+                    [number] => 
+                )
+
+            [identification:protected] => stdClass Object
+                (
+                    [number] => 343.412.44_-__
+                    [type] => CPF
+                )
+
+            [address:protected] => stdClass Object
+                (
+                    [zip_code] => 06900-000
+                    [street_name] => rua pedro cristie
+                    [street_number] => 90
+                    [neighborhood] => sa
+                    [city] => Embu-Guaçu
+                )
+
+            [_last:protected] => 
+            [error:protected] => 
+            [_pagination_params:protected] => 
+            [_empty:protected] => 
+        )
+
+    [shipments:protected] => MercadoPago\Shipments Object
+        (
+            [mode:protected] => 
+            [local_pickup:protected] => 
+            [free_methods:protected] => 
+            [cost:protected] => 
+            [free_shipping:protected] => 
+            [receiver_address:protected] => stdClass Object
+                (
+                    [zip_code] => 
+                    [street_name] => 
+                    [street_number] => 
+                    [floor] => 
+                    [apartment] => 
+                    [city_name] => 
+                    [state_name] => 
+                    [country_name] => 
+                )
+
+            [dimensions:protected] => 
+            [default_shipping_method:protected] => 
+            [_last:protected] => 
+            [error:protected] => 
+            [_pagination_params:protected] => 
+            [_empty:protected] => 
+        )
+
+    [date_created:protected] => 2024-09-30T04:33:08.000+02:00
+    [sponsor_id:protected] => 
+    [processing_modes:protected] => 
+    [binary_mode:protected] => 
+    [taxes:protected] => 
+    [statement_descriptor:protected] => 
+    [metadata:protected] => Array
+        (
+        )
+
+    [tracks:protected] => 
+    [_last:protected] => MercadoPago\Preference Object
+        (
+            [id:protected] => 1857506377-77120dae-5ca5-43f0-951d-d126864986b7
+            [auto_return:protected] => approved
+            [back_urls:protected] => stdClass Object
+                (
+                    [failure] => http://localhost:5173/Pacotes
+                    [pending] => http://localhost:5173/Pacotes
+                    [success] => http://localhost:5173/
+                )
+
+            [notification_url:protected] => 
+            [init_point:protected] => https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=1857506377-77120dae-5ca5-43f0-951d-d126864986b7
+            [sandbox_init_point:protected] => https://sandbox.mercadopago.com.br/checkout/v1/redirect?pref_id=1857506377-77120dae-5ca5-43f0-951d-d126864986b7
+            [operation_type:protected] => regular_payment
+            [additional_info:protected] => 
+            [external_reference:protected] => 
+            [expires:protected] => 
+            [expiration_date_from:protected] => 
+            [expiration_date_to:protected] => 
+            [date_of_expiration:protected] => 
+            [collector_id:protected] => 1857506377
+            [client_id:protected] => 4788467070224111
+            [marketplace:protected] => NONE
+            [marketplace_fee:protected] => 0
+            [differential_pricing:protected] => 
+            [payment_methods:protected] => stdClass Object
+                (
+                    [default_card_id] => 
+                    [default_payment_method_id] => 
+                    [excluded_payment_methods] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [id] => 
+                                )
+
+                        )
+
+                    [excluded_payment_types] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [id] => 
+                                )
+
+                        )
+
+                    [installments] => 12
+                    [default_installments] => 
+                )
+
+            [items:protected] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => 
+                            [category_id] => 
+                            [currency_id] => BRL
+                            [description] => 
+                            [title] => Barman + lista de compras
+                            [quantity] => 1
+                            [unit_price] => 950
+                        )
+
+                )
+
+            [payer:protected] => MercadoPago\Payer Object
+                (
+                    [id:protected] => 
+                    [entity_type:protected] => 
+                    [type:protected] => 
+                    [name:protected] => ADENISIA MORAES DE OLIVEIRA
+                    [surname:protected] => 
+                    [first_name:protected] => 
+                    [last_name:protected] => 
+                    [email:protected] => adenisisa@dd
+                    [date_created:protected] => 
+                    [phone:protected] => stdClass Object
+                        (
+                            [area_code] => 
+                            [number] => 
+                        )
+
+                    [identification:protected] => stdClass Object
+                        (
+                            [number] => 343.412.44_-__
+                            [type] => CPF
+                        )
+
+                    [address:protected] => stdClass Object
+                        (
+                            [zip_code] => 06900-000
+                            [street_name] => rua pedro cristie
+                            [street_number] => 90
+                            [neighborhood] => sa
+                            [city] => Embu-Guaçu
+                        )
+
+                    [_last:protected] => 
+                    [error:protected] => 
+                    [_pagination_params:protected] => 
+                    [_empty:protected] => 
+                )
+
+            [shipments:protected] => MercadoPago\Shipments Object
+                (
+                    [mode:protected] => 
+                    [local_pickup:protected] => 
+                    [free_methods:protected] => 
+                    [cost:protected] => 
+                    [free_shipping:protected] => 
+                    [receiver_address:protected] => stdClass Object
+                        (
+                            [zip_code] => 
+                            [street_name] => 
+                            [street_number] => 
+                            [floor] => 
+                            [apartment] => 
+                            [city_name] => 
+                            [state_name] => 
+                            [country_name] => 
+                        )
+
+                    [dimensions:protected] => 
+                    [default_shipping_method:protected] => 
+                    [_last:protected] => 
+                    [error:protected] => 
+                    [_pagination_params:protected] => 
+                    [_empty:protected] => 
+                )
+
+            [date_created:protected] => 2024-09-30T04:33:08.000+02:00
+            [sponsor_id:protected] => 
+            [processing_modes:protected] => 
+            [binary_mode:protected] => 
+            [taxes:protected] => 
+            [statement_descriptor:protected] => 
+            [metadata:protected] => Array
+                (
+                )
+
+            [tracks:protected] => 
+            [_last:protected] => 
+            [error:protected] => 
+            [_pagination_params:protected] => 
+            [_empty:protected] => 
+            [redirect_urls] => stdClass Object
+                (
+                    [failure] => 
+                    [pending] => 
+                    [success] => 
+                )
+
+            [site_id] => MLB
+            [financing_group] => 
+        )
+
+    [error:protected] => 
+    [_pagination_params:protected] => 
+    [_empty:protected] => 
+    [redirect_urls] => stdClass Object
+        (
+            [failure] => 
+            [pending] => 
+            [success] => 
+        )
+
+    [site_id] => MLB
+    [financing_group] => 
+)
+Array
+(
+)
+MercadoPago\Preference Object
+(
+    [id:protected] => 1857506377-fafddecc-fb50-418b-adcb-c064d95ae46f
+    [auto_return:protected] => approved
+    [back_urls:protected] => stdClass Object
+        (
+            [failure] => http://localhost:5173/Pacotes
+            [pending] => http://localhost:5173/Pacotes
+            [success] => http://localhost:5173/
+        )
+
+    [notification_url:protected] => 
+    [init_point:protected] => https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=1857506377-fafddecc-fb50-418b-adcb-c064d95ae46f
+    [sandbox_init_point:protected] => https://sandbox.mercadopago.com.br/checkout/v1/redirect?pref_id=1857506377-fafddecc-fb50-418b-adcb-c064d95ae46f
+    [operation_type:protected] => regular_payment
+    [additional_info:protected] => 
+    [external_reference:protected] => 
+    [expires:protected] => 
+    [expiration_date_from:protected] => 
+    [expiration_date_to:protected] => 
+    [date_of_expiration:protected] => 
+    [collector_id:protected] => 1857506377
+    [client_id:protected] => 4788467070224111
+    [marketplace:protected] => NONE
+    [marketplace_fee:protected] => 0
+    [differential_pricing:protected] => 
+    [payment_methods:protected] => stdClass Object
+        (
+            [default_card_id] => 
+            [default_payment_method_id] => 
+            [excluded_payment_methods] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => 
+                        )
+
+                )
+
+            [excluded_payment_types] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => 
+                        )
+
+                )
+
+            [installments] => 12
+            [default_installments] => 
+        )
+
+    [items:protected] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => 
+                    [category_id] => 
+                    [currency_id] => BRL
+                    [description] => 
+                    [title] => Barman + lista de compras
+                    [quantity] => 1
+                    [unit_price] => 950
+                )
+
+        )
+
+    [payer:protected] => MercadoPago\Payer Object
+        (
+            [id:protected] => 
+            [entity_type:protected] => 
+            [type:protected] => 
+            [name:protected] => ADENISIA MORAES DE OLIVEIRA
+            [surname:protected] => 
+            [first_name:protected] => 
+            [last_name:protected] => 
+            [email:protected] => adsenisisa@dds
+            [date_created:protected] => 
+            [phone:protected] => stdClass Object
+                (
+                    [area_code] => 
+                    [number] => 
+                )
+
+            [identification:protected] => stdClass Object
+                (
+                    [number] => 343.412.442-22
+                    [type] => CPF
+                )
+
+            [address:protected] => stdClass Object
+                (
+                    [zip_code] => 06900-000
+                    [street_name] => rua pedro cristie
+                    [street_number] => 90
+                    [neighborhood] => sa
+                    [city] => Embu-Guaçu
+                )
+
+            [_last:protected] => 
+            [error:protected] => 
+            [_pagination_params:protected] => 
+            [_empty:protected] => 
+        )
+
+    [shipments:protected] => MercadoPago\Shipments Object
+        (
+            [mode:protected] => 
+            [local_pickup:protected] => 
+            [free_methods:protected] => 
+            [cost:protected] => 
+            [free_shipping:protected] => 
+            [receiver_address:protected] => stdClass Object
+                (
+                    [zip_code] => 
+                    [street_name] => 
+                    [street_number] => 
+                    [floor] => 
+                    [apartment] => 
+                    [city_name] => 
+                    [state_name] => 
+                    [country_name] => 
+                )
+
+            [dimensions:protected] => 
+            [default_shipping_method:protected] => 
+            [_last:protected] => 
+            [error:protected] => 
+            [_pagination_params:protected] => 
+            [_empty:protected] => 
+        )
+
+    [date_created:protected] => 2024-09-30T04:33:20.000+02:00
+    [sponsor_id:protected] => 
+    [processing_modes:protected] => 
+    [binary_mode:protected] => 
+    [taxes:protected] => 
+    [statement_descriptor:protected] => 
+    [metadata:protected] => Array
+        (
+        )
+
+    [tracks:protected] => 
+    [_last:protected] => MercadoPago\Preference Object
+        (
+            [id:protected] => 1857506377-fafddecc-fb50-418b-adcb-c064d95ae46f
+            [auto_return:protected] => approved
+            [back_urls:protected] => stdClass Object
+                (
+                    [failure] => http://localhost:5173/Pacotes
+                    [pending] => http://localhost:5173/Pacotes
+                    [success] => http://localhost:5173/
+                )
+
+            [notification_url:protected] => 
+            [init_point:protected] => https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=1857506377-fafddecc-fb50-418b-adcb-c064d95ae46f
+            [sandbox_init_point:protected] => https://sandbox.mercadopago.com.br/checkout/v1/redirect?pref_id=1857506377-fafddecc-fb50-418b-adcb-c064d95ae46f
+            [operation_type:protected] => regular_payment
+            [additional_info:protected] => 
+            [external_reference:protected] => 
+            [expires:protected] => 
+            [expiration_date_from:protected] => 
+            [expiration_date_to:protected] => 
+            [date_of_expiration:protected] => 
+            [collector_id:protected] => 1857506377
+            [client_id:protected] => 4788467070224111
+            [marketplace:protected] => NONE
+            [marketplace_fee:protected] => 0
+            [differential_pricing:protected] => 
+            [payment_methods:protected] => stdClass Object
+                (
+                    [default_card_id] => 
+                    [default_payment_method_id] => 
+                    [excluded_payment_methods] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [id] => 
+                                )
+
+                        )
+
+                    [excluded_payment_types] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [id] => 
+                                )
+
+                        )
+
+                    [installments] => 12
+                    [default_installments] => 
+                )
+
+            [items:protected] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => 
+                            [category_id] => 
+                            [currency_id] => BRL
+                            [description] => 
+                            [title] => Barman + lista de compras
+                            [quantity] => 1
+                            [unit_price] => 950
+                        )
+
+                )
+
+            [payer:protected] => MercadoPago\Payer Object
+                (
+                    [id:protected] => 
+                    [entity_type:protected] => 
+                    [type:protected] => 
+                    [name:protected] => ADENISIA MORAES DE OLIVEIRA
+                    [surname:protected] => 
+                    [first_name:protected] => 
+                    [last_name:protected] => 
+                    [email:protected] => adsenisisa@dds
+                    [date_created:protected] => 
+                    [phone:protected] => stdClass Object
+                        (
+                            [area_code] => 
+                            [number] => 
+                        )
+
+                    [identification:protected] => stdClass Object
+                        (
+                            [number] => 343.412.442-22
+                            [type] => CPF
+                        )
+
+                    [address:protected] => stdClass Object
+                        (
+                            [zip_code] => 06900-000
+                            [street_name] => rua pedro cristie
+                            [street_number] => 90
+                            [neighborhood] => sa
+                            [city] => Embu-Guaçu
+                        )
+
+                    [_last:protected] => 
+                    [error:protected] => 
+                    [_pagination_params:protected] => 
+                    [_empty:protected] => 
+                )
+
+            [shipments:protected] => MercadoPago\Shipments Object
+                (
+                    [mode:protected] => 
+                    [local_pickup:protected] => 
+                    [free_methods:protected] => 
+                    [cost:protected] => 
+                    [free_shipping:protected] => 
+                    [receiver_address:protected] => stdClass Object
+                        (
+                            [zip_code] => 
+                            [street_name] => 
+                            [street_number] => 
+                            [floor] => 
+                            [apartment] => 
+                            [city_name] => 
+                            [state_name] => 
+                            [country_name] => 
+                        )
+
+                    [dimensions:protected] => 
+                    [default_shipping_method:protected] => 
+                    [_last:protected] => 
+                    [error:protected] => 
+                    [_pagination_params:protected] => 
+                    [_empty:protected] => 
+                )
+
+            [date_created:protected] => 2024-09-30T04:33:20.000+02:00
+            [sponsor_id:protected] => 
+            [processing_modes:protected] => 
+            [binary_mode:protected] => 
+            [taxes:protected] => 
+            [statement_descriptor:protected] => 
+            [metadata:protected] => Array
+                (
+                )
+
+            [tracks:protected] => 
+            [_last:protected] => 
+            [error:protected] => 
+            [_pagination_params:protected] => 
+            [_empty:protected] => 
+            [redirect_urls] => stdClass Object
+                (
+                    [failure] => 
+                    [pending] => 
+                    [success] => 
+                )
+
+            [site_id] => MLB
+            [financing_group] => 
+        )
+
+    [error:protected] => 
+    [_pagination_params:protected] => 
+    [_empty:protected] => 
+    [redirect_urls] => stdClass Object
+        (
+            [failure] => 
+            [pending] => 
+            [success] => 
+        )
+
+    [site_id] => MLB
+    [financing_group] => 
+)
+Array
+(
+)
+MercadoPago\Preference Object
+(
+    [id:protected] => 
+    [auto_return:protected] => approved
+    [back_urls:protected] => Array
+        (
+            [success] => http://localhost:5173/
+            [failure] => http://localhost:5173/Pacotes
+            [pending] => http://localhost:5173/Pacotes
+        )
+
+    [notification_url:protected] => 
+    [init_point:protected] => 
+    [sandbox_init_point:protected] => 
+    [operation_type:protected] => 
+    [additional_info:protected] => 
+    [external_reference:protected] => 
+    [expires:protected] => 
+    [expiration_date_from:protected] => 
+    [expiration_date_to:protected] => 
+    [date_of_expiration:protected] => 
+    [collector_id:protected] => 
+    [client_id:protected] => 
+    [marketplace:protected] => 
+    [marketplace_fee:protected] => 
+    [differential_pricing:protected] => 
+    [payment_methods:protected] => Array
+        (
+            [excluded_payment_types] => Array
+                (
+                )
+
+            [installments] => 12
+            [default_payment_method_id] => 
+            [included_payment_methods] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => pix
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => credit_card
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => debit_card
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => ticket
+                        )
+
+                )
+
+        )
+
+    [items:protected] => Array
+        (
+            [0] => MercadoPago\Item Object
+                (
+                    [id:protected] => 
+                    [title:protected] => Barman + lista de compras
+                    [description:protected] => 
+                    [category_id:protected] => 
+                    [picture_url:protected] => 
+                    [currency_id:protected] => 
+                    [quantity:protected] => 1
+                    [unit_price:protected] => 950
+                    [_last:protected] => 
+                    [error:protected] => 
+                    [_pagination_params:protected] => 
+                    [_empty:protected] => 
+                )
+
+        )
+
+    [payer:protected] => MercadoPago\Payer Object
+        (
+            [id:protected] => 
+            [entity_type:protected] => 
+            [type:protected] => 
+            [name:protected] => ADENISIA MORAES DE OLIVEIRA
+            [surname:protected] => 
+            [first_name:protected] => 
+            [last_name:protected] => 
+            [email:protected] => adsenisisa@sdds
+            [date_created:protected] => 
+            [phone:protected] => 
+            [identification:protected] => Array
+                (
+                    [type] => CPF
+                    [number] => 343.412.432-22
+                )
+
+            [address:protected] => Array
+                (
+                    [street_name] => rua pedro cristie
+                    [street_number] => 90
+                    [zip_code] => 06900-000
+                    [neighborhood] => sa
+                    [city] => Embu-Guaçu
+                    [state] => Sao Paulo
+                    [country] => BR
+                )
+
+            [_last:protected] => 
+            [error:protected] => 
+            [_pagination_params:protected] => 
+            [_empty:protected] => 
+        )
+
+    [shipments:protected] => 
+    [date_created:protected] => 
+    [sponsor_id:protected] => 
+    [processing_modes:protected] => 
+    [binary_mode:protected] => 
+    [taxes:protected] => 
+    [statement_descriptor:protected] => 
+    [metadata:protected] => 
+    [tracks:protected] => 
+    [_last:protected] => 
+    [error:protected] => 
+    [_pagination_params:protected] => 
+    [_empty:protected] => 
+)
